@@ -16,7 +16,7 @@ function App() {
         </Header>
         <Drawer title="Timothy Kim">
             <Navigation>
-            <a href="/">About Me</a>
+                <a href="/">About Me</a>
                 <a href="/">Projects</a>
                 <a href="/">Resume</a>
                 <a href="/">Contact</a>
