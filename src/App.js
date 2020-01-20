@@ -6,7 +6,7 @@ function App() {
   return (
     <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}></span><strong>Timothy Kim</strong></span>}>
+        <Header title={<span><span style={{ color: '#fffff' }}></span><strong>Timothy Kim</strong></span>}>
             <Navigation>
                 <a href="/">About Me</a>
                 <a href="/">Projects</a>
