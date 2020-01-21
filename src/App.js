@@ -18,10 +18,10 @@ function App() {
         </Header>
         <Drawer title="Timothy Kim">
             <Navigation>
-                <a href="/">About Me</a>
-                <a href="/">Projects</a>
-                <a href="/">Resume</a>
-                <a href="/">Contact Me</a>
+                <a href="/aboutme">About Me</a>
+                <a href="/projects">Projects</a>
+                <a href="/resume">Resume</a>
+                <a href="/contact">Contact Me</a>
             </Navigation>
         </Drawer>
         <Content>
