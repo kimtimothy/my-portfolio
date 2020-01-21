@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import Landing from './landing'
-import AboutMe from './aboutme'
-import Projects from './projects'
-import Skills from './skills'
-import Resume from './resume'
-import Contact from './contact'
+import Landing from '../Landing/landing'
+import AboutMe from '../AboutMe/aboutme'
+import Projects from '../Projects/projects'
+import Skills from '../Skills/skills'
+import Resume from '../Resume/resume'
+import Contact from '../Contact/contact'
 
 const Main = () => {
     return(
