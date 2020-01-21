@@ -8,6 +8,11 @@ import Contact from './contact'
 
 const Main = () => {
     <Switch>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/" component={ Landing } />
+        <Route exact path="/AboutMe" component={ AboutMe }/>
     </Switch>
 }
+
+
+export default withRouter(Main)
+
