@@ -13,10 +13,9 @@ const Main = () => {
         <Route exact path="/projects" component={ Projects }/>
         <Route exact path="/resume" component={ Resume }/>
         <Route exact path="/contact" component={ Contact }/>
-        
     </Switch>
 }
 
 
-export default withRouter(Main)
+export default Main
 
