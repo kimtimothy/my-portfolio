@@ -7,6 +7,7 @@ import Resume from './resume'
 import Contact from './contact'
 
 const Main = () => {
+    return(
     <Switch>
         <Route exact path="/" component={ Landing } />
         <Route exact path="/aboutme" component={ AboutMe }/>
@@ -14,6 +15,8 @@ const Main = () => {
         <Route exact path="/resume" component={ Resume }/>
         <Route exact path="/contact" component={ Contact }/>
     </Switch>
+    )
+
 }
 
 

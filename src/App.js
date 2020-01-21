@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from './components/main'
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from 'react-router-dom'
@@ -23,7 +24,9 @@ function App() {
                 <a href="/">Contact Me</a>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+            <Main />
+        </Content>
     </Layout>
 </div>
   );
