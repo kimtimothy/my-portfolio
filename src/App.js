@@ -11,7 +11,7 @@ function App() {
                 <a href="/">About Me</a>
                 <a href="/">Projects</a>
                 <a href="/">Resume</a>
-                <a href="/">Contact</a>
+                <a href="/">Contact Me</a>
             </Navigation>
         </Header>
         <Drawer title="Timothy Kim">
@@ -19,7 +19,7 @@ function App() {
                 <a href="/">About Me</a>
                 <a href="/">Projects</a>
                 <a href="/">Resume</a>
-                <a href="/">Contact</a>
+                <a href="/">Contact Me</a>
             </Navigation>
         </Drawer>
         <Content />
