@@ -10,10 +10,10 @@ function App() {
     <Layout fixedHeader>
         <Header title={<span><span style={{ color: '#fffff' }}></span><strong>Timothy Kim</strong></span>}>
             <Navigation>
-                <Link to="/">About Me</Link>
-                <Link to="/">Projects</Link>
-                <Link to="/">Resume</Link>
-                <Link to="/">Contact Me</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/contact">Contact Me</Link>
             </Navigation>
         </Header>
         <Drawer title="Timothy Kim">
