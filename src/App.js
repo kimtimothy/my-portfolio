@@ -6,12 +6,13 @@ import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
+    <div style={{height: '900px', position: 'relative'}}>
     <Layout fixedHeader>
         <Header title={<span><span style={{ color: '#fffff' }}></span><strong>Timothy Kim</strong></span>}>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
+                <Link to="/skills">Skills</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/contact">Contact Me</Link>
             </Navigation>
@@ -20,6 +21,7 @@ function App() {
             <Navigation>
                 <a href="/aboutme">About Me</a>
                 <a href="/projects">Projects</a>
+                <a href="/skills">Skills</a>
                 <a href="/resume">Resume</a>
                 <a href="/contact">Contact Me</a>
             </Navigation>
