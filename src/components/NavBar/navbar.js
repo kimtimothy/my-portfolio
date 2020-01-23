@@ -7,7 +7,7 @@ class NavBar extends Component {
             <div className="nav">
                 <div className="nav__header">
                     <div className="nav__left">
-                        <a href="/" className="nav__link">Logo</a>
+                        <a href="/" className="nav__link">Timothy Kim</a>
                     </div>
                     <div className="nav__center">
                     </div>
@@ -27,10 +27,10 @@ class NavBar extends Component {
                 </div>
                 <div class="overlay">
                     <div class="overlay__content">
-                        <a href="#" class="overlay__link">One</a>
-                        <a href="#" class="overlay__link">Two</a>
-                        <a href="#" class="overlay__link">Three</a>
-                        <a href="#" class="overlay__link">Four</a>
+                        <a href="/aboutme" class="overlay__link">About Me</a>
+                        <a href="/skills" class="overlay__link">Skills</a>
+                        <a href="/projects" class="overlay__link">Projects</a>
+                        <a href="/resume" class="overlay__link">Resume</a>
                     </div>
                 </div>
             </div>
