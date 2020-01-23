@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Landing extends Component {
     render(){
         return(
-            <div>
+            <div style={{width: '100%', margin: 'auto'}}>
                 <h1>Landing</h1>
             </div>
         )
