@@ -57,15 +57,6 @@ class NavBar extends Component {
                         >Projects</Link>
                         <Link 
                         activeClass="active" 
-                        to="resume" 
-                        className="nav__link"
-                        spy={true}
-                        smooth={true}
-                        offset={-90}
-                        duration= {500}
-                        >Resume</Link>
-                        <Link 
-                        activeClass="active" 
                         to="contact" 
                         className="nav__link"
                         spy={true}
