@@ -19,7 +19,7 @@
         font-family: $font-stack;
         letter-spacing: 5px;
         margin: 50px;
-        margin-top: 100px;
+        margin-top: 200px;
 
         span {
             color: gray;
@@ -130,6 +130,13 @@ h4 {
     .contact__h2 {
         color: white;
         margin-top: 0;
+    }
+
+}
+
+.icon__github {
+    &:hover{
+        color: grey;
     }
 }
 

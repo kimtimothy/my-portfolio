@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FaEnvelope, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 class Contact extends Component {
     render(){
@@ -10,9 +9,15 @@ class Contact extends Component {
                     <h2 className="contact__h2">Contact</h2>
                 </div>
                 <div className="contact__icons">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-linkedin"></i>
-                    <i class="fab fa-envelope-o"></i>
+                    <a href="https://linkedin.com/in/timhkim" target="_blank" className="icon__github">
+                        <FaGithub  style={{color: "white", fontSize: "40pt"}}/>
+                    </a>
+                    <a href="http://github.com/kimtimmy93" target="_blank" className="icon__linkedin">
+                        <FaLinkedinIn  style={{color: "white", fontSize: "40pt"}}/>
+                    </a>
+                    <a href="mailto:timhkim0623@gmail.com" target="_blank" className="icon__envelope">
+                        <FaEnvelope  style={{color: "white", fontSize: "40pt"}}/>
+                    </a>
                 </div>
             </div>
         )
