@@ -86,10 +86,10 @@ h2 {
 }
 
 .projects-section {
-    height: 300vh;
+    height: 330vh;
     border-bottom: $border;
 
-    .projects__grid-1, .projects__grid-3, .projects__grid-5{
+    .projects__grid-1, .projects__grid-3, .projects__grid-5 {
         display: flex;
         align-items: center;
         justify-content: center;
