@@ -8,7 +8,16 @@ class NavBar extends Component {
             <div className="nav">
                 <div className="nav__header">
                     <div className="nav__left">
-                        <Link to="/" className="nav__link">Timothy Kim</Link>
+                        <Link
+                        activeClass="active"  
+                        to="about" 
+                        className="nav__link" 
+                        id="nav__logo"
+                        spy={true}
+                        smooth={true}
+                        offset={-90}
+                        duration= {500}
+                        >T I M</Link>
                     </div>
                     <div className="nav__center">
                     </div>
@@ -27,7 +36,7 @@ class NavBar extends Component {
                         className="nav__link"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-90}
                         duration= {500}
                         >About Me</Link>
                         <Link activeClass="active" 
@@ -35,7 +44,7 @@ class NavBar extends Component {
                         className="nav__link"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-90}
                         duration= {500}
                         >Skills</Link>
                         <Link 
@@ -43,7 +52,7 @@ class NavBar extends Component {
                         to="projects" className="nav__link"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-90}
                         duration= {500}
                         >Projects</Link>
                         <Link 
@@ -52,7 +61,7 @@ class NavBar extends Component {
                         className="nav__link"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-90}
                         duration= {500}
                         >Resume</Link>
                         <Link 
@@ -61,7 +70,7 @@ class NavBar extends Component {
                         className="nav__link"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={-90}
                         duration= {500}
                         >Contact</Link>
                         {/* <div className="hamburger-menu">
