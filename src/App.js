@@ -5,7 +5,6 @@ import Landing from './components/Landing/landing'
 import Skills from './components/Skills/skills'
 import Projects from './components/Projects/projects'
 import Contact from './components/Contact/contact'
-import { Link, animateScroll as scroll } from "react-scroll";
 import './App.scss'
 
 function App() {
