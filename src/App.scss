@@ -1,12 +1,10 @@
-@import 'styles/config';
-@import 'styles/buttons';
-@import 'styles/alerts';
-@import '../styles/variables.scss';
+@import '../src/styles/variables.scss';
 
 
 .landing-section {
     height: $section-height;
-    background-color: skyblue;
+    background-image: url('../src/assets/images/black.jpeg');
+
 }
 
 .about-section{
