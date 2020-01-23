@@ -5,7 +5,6 @@
     height: $section-height;
     background-image: url('../src/assets/images/black.jpg');
 
-
     .container {
         display: flex;
         text-align: center;
@@ -90,12 +89,14 @@ h2 {
     height: 330vh;
     border-bottom: $border;
 
+
     .projects__grid-1, .projects__grid-3, .projects__grid-5 {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
         margin-left: 50px;
+        margin-right: 0;
         height: 400px;
         width: 600px;
         border: solid black 1px;
@@ -115,6 +116,21 @@ h2 {
         height: 300px;
         width: 500px;
         border: solid black 1px;
+    }
+
+    .projects__info-1 {
+        float: right;
+        width: 30%;
+        margin-top: -400px;
+        margin-right: 200px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .projects__info-2 {
+        width: 30%;
+        justify-content: center;
+        text-align: center;
     }
 }
 

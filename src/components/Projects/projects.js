@@ -17,10 +17,28 @@ class Projects extends Component {
                             <img src={pic06} alt=""/>
                         </a>
                     </div>
+                    <div className="projects__info-1"> 
+                        <h3>Whack-A-Mole</h3>
+                            <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
+                        <h4>Technologies Used</h4>
+                            <p>
+                                HTML5, CSS3, jQuery, JavaScript
+                                </p>
+                    </div>
                     <div className="projects__grid-2">
                         <a href="https://mixr-1.herokuapp.com/" target="_blank">
                             <img src={pic03} alt=""/>
                         </a>
+                    </div>
+                    <div className="projects__info-1"> 
+                        <header>
+                            <h3>MIXR</h3>
+                                <p>Web application designed for musicians, artists, and producers to come together to create, connect, and collaborate on projects.</p>
+                            <h4>Technologies Used</h4>
+                                <p>
+                                    HTML5, CSS3, Bootstrap, Node.js, Express.js, Embedded Javascript(EJS), MongoDB
+                                </p>
+                        </header>
                     </div>
                     <div className="projects__grid-3">
                         <a href="https://local-la.herokuapp.com/" target="_blank">
