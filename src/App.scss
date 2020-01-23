@@ -1,4 +1,5 @@
 @import '../src/styles/variables.scss';
+@import url("https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css");
 
 .landing-section {
     height: $section-height;
@@ -30,12 +31,14 @@
         justify-content: center;
         width: 60%;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 20px;
         text-align: center;
     }
 }
+
 p {
-    font-size: 20pt;
+    height: fit-content;
+    font-size: 14pt;
     line-height: 3.3rem;
     font-family: $font-stack;
 }
@@ -44,13 +47,32 @@ h2 {
     text-align: center;
     font-family: $font-stack;
     text-transform: $uppercase;
-    padding-top: 50px;
+    padding-top: 40px;
     letter-spacing: 5px;
 }
 
 .skills-section {
     height: 60vh;
     border-bottom: $border;
+
+    .icons {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    i {
+        font-size: 85px;
+        padding: 20px;
+        
+    }
+
+    .second-half-icons{
+        padding: 20px;
+        padding-top: 40px;
+    }
 }
 
 .projects-section {
