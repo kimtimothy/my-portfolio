@@ -3,7 +3,7 @@
  class Resume extends Component {
      render(){
          return(
-            <div>
+            <div className="resume-section">
                 <h1>Resume Page</h1>
             </div>
          )

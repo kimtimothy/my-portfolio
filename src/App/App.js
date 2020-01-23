@@ -8,7 +8,7 @@ import Projects from '../components/Projects/projects'
 import Contact from '../components/Contact/contact'
 import Resume from '../components/Resume/resume'
 import Footer from '../components/Footer/footer'
-import { Link } from 'react-router-dom'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function App() {
   return (

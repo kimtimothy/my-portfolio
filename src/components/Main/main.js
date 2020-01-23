@@ -9,6 +9,8 @@ import Contact from '../Contact/contact'
 
 const Main = () => {
     return(
+    // <div className="main-section">
+    // </div>
     <Switch>
         <Route exact path="/" component={ Landing } />
         <Route exact path="/aboutme" component={ AboutMe }/>

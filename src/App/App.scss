@@ -1,3 +1,30 @@
 @import 'styles/config';
 @import 'styles/buttons';
 @import 'styles/alerts';
+@import '../styles/variables.scss';
+
+
+.landing-section {
+    height: $section-height;
+    background-color: skyblue;
+}
+
+.about-section{
+    height: $section-height;
+    background-color: yellow;
+}
+
+.skills-section{
+    height: $section-height;
+    background-color: skyblue;
+}
+
+.projects-section {
+    height: $section-height;
+    background-color: yellow;
+}
+
+.contact-section {
+    height: $section-height;
+    background-color: skyblue;
+}
