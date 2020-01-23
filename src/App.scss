@@ -66,7 +66,7 @@ h2 {
     border-bottom: $border;
 
     .icons {
-        margin-top: 40px;
+        margin-top: 60px;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -86,8 +86,29 @@ h2 {
 }
 
 .projects-section {
-    height: $section-height;
+    height: 300vh;
     border-bottom: $border;
+
+    .projects__grid-1, .projects__grid-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: 50px;
+        height: 400px;
+        width: 600px;
+        border: solid black 1px;
+    }
+    .projects__grid-2, .projects__grid-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-right: 50px;
+        height: 400px;
+        width: 600px;
+        border: solid black 1px;
+    }
 }
 
 .resume-section {
