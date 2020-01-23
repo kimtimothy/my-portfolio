@@ -89,7 +89,7 @@ h2 {
     height: 300vh;
     border-bottom: $border;
 
-    .projects__grid-1, .projects__grid-3{
+    .projects__grid-1, .projects__grid-3, .projects__grid-5{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -107,6 +107,12 @@ h2 {
         margin-right: 50px;
         height: 400px;
         width: 600px;
+        border: solid black 1px;
+    }
+
+    img {
+        height: 300px;
+        width: 500px;
         border: solid black 1px;
     }
 }
