@@ -1,19 +1,33 @@
 @import '../src/styles/variables.scss';
 
-
 .landing-section {
     height: $section-height;
     background-image: url('../src/assets/images/black.jpeg');
+    overflow: hidden;
+
+    .container {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .alt {
+        position: relative;
+        top: 50px;
+        color: white;
+        font-family: $font-stack;
+        letter-spacing: 2px;
+    }
 
 }
 
 .about-section{
-    height: $section-height;
+    height: 80vh;
     background-color: yellow;
 }
 
 .skills-section{
-    height: $section-height;
+    height: 70vh;
     background-color: skyblue;
 }
 
