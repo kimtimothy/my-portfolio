@@ -11,6 +11,7 @@ class Projects extends Component {
             <div className="projects-section" id="projects">
                 <div className="projects__container">
                     <h2>Projects</h2>
+                    <h4>Click on images to open projects</h4>
                     <div className="projects__grid-1">
                         <a href="https://www.goodfoodla.org/" target="_blank">
                             <img src={pic06} alt=""/>
