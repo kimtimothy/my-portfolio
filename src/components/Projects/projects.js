@@ -18,12 +18,12 @@ class Projects extends Component {
                         </a>
                     </div>
                     <div className="projects__info-1"> 
-                        <h4>Whack-A-Mole</h4>
-                            <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
+                        <h4>LAFPC Food Dashboard</h4>
+                            <p>A dashboard created for the LA Food Policy Council. Worked in an agile environment with UX Designers, Data Scientists, and other Developers. Created a search function that filters through the data’s indicator titles. Implemented CSV upload capability that automatically converts and populates data onto a categorized table</p>
                         <h5>Technologies Used</h5>
                             <p>
-                                HTML5, CSS3, jQuery, JavaScript
-                                </p>
+                                React.js | Node.js | MongoDB | JavaScript | CSS3 | Styled Components
+                            </p>
                     </div>
                     <div className="projects__grid-2">
                         <a href="https://mixr-1.herokuapp.com/" target="_blank">
@@ -36,7 +36,7 @@ class Projects extends Component {
                                 <p>Web application designed for musicians, artists, and producers to come together to create, connect, and collaborate on projects.</p>
                             <h5>Technologies Used</h5>
                                 <p>
-                                    HTML5, CSS3, Bootstrap, Node.js, Express.js, Embedded Javascript(EJS), MongoDB
+                                    HTML5 | CSS3 | Bootstrap | Node.js | Express.js | Embedded Javascript(EJS) | MongoDB
                                 </p>
                         </header>
                     </div>
@@ -51,7 +51,7 @@ class Projects extends Component {
                             <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
                             </p>
                         <h5>Technologies Used</h5>
-                        <p>Technologies used: React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
+                        <p>React.js | CSS3 | Bootstrap | Flask| SQLite | PostgreSQL | Flask-Login</p>
                         </header>
                     </div>
                     <div className="projects__grid-4">
@@ -64,7 +64,7 @@ class Projects extends Component {
                             <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
                         <h5>Technologies Used</h5>
                             <p>
-                                HTML5, CSS3, jQuery, JavaScript
+                                HTML5 | CSS3 | jQuery | JavaScript
                                 </p>
                     </div>
                     <div className="projects__grid-5">
@@ -78,7 +78,7 @@ class Projects extends Component {
                                 <p>Local:Host is a full-stack MERN app created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage.
                                 </p>
                             <h5>Technologies Used</h5>
-                                <p>React.js, Node.js, Express.js, MongoDB, Firebase</p>
+                                <p>React.js | Node.js | Express.js | MongoDB | Firebase</p>
                             </header>
                     </div>
                 </div>

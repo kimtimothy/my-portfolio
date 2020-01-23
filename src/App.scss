@@ -46,7 +46,7 @@
     }
 }
 
-p {
+.aboutme__p {
     height: fit-content;
     font-size: 14pt;
     line-height: 3.0rem;
@@ -121,7 +121,8 @@ h2 {
     .projects__info-1, .projects__info-3, .projects__info-5 {
         float: right;
         width: 40%;
-        margin-top: -400px;
+        height: 40vh;
+        margin-top: -380px;
         margin-right: 100px;
         justify-content: center;
         text-align: center;
@@ -131,11 +132,12 @@ h2 {
 
     .projects__info-2, .projects__info-4 {
         width: 30%;
-        margin-top: -400px;
+        height: 60vh;
+        margin-top: -380px;
         margin-left: 100px;
         justify-content: center;
         text-align: center;
-        font-size: 10pt;
+        font-size: 16pt;
     }
 }
 
