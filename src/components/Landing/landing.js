@@ -9,9 +9,11 @@ class Landing extends Component {
                 <div className="container">
                     <header>
                         <h2 className="alt">
-                            <strong>Timothy</strong>
+                            <strong>Timothy</strong> <span>Kim</span>
                             <br />
-                            Software Developer
+                            <div className="title">
+                                <span>Software</span> Developer
+                            </div>
                         </h2>
                     </header>
                 </div>

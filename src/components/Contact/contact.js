@@ -5,7 +5,7 @@ class Contact extends Component {
         return (
             <div className="contact-section" id="contact">
                 <div className="contact__container">
-                    <h2 className="contact__h2">Contact Me</h2>
+                    <h2 className="contact__h2">Contact</h2>
                 </div>
             </div>
         )
