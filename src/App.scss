@@ -164,6 +164,18 @@ h4 {
         margin-right: 30px;
     }
 
+    .pdf {
+        margin-top: 60px;
+        text-align: center;
+        
+
+        .pdf__link{
+            color: white;
+            font-family: $font-stack;
+            font-size: 14pt;
+
+        }
+    }
 
 }
 
