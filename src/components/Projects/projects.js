@@ -18,9 +18,9 @@ class Projects extends Component {
                         </a>
                     </div>
                     <div className="projects__info-1"> 
-                        <h3>Whack-A-Mole</h3>
+                        <h4>Whack-A-Mole</h4>
                             <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
-                        <h4>Technologies Used</h4>
+                        <h5>Technologies Used</h5>
                             <p>
                                 HTML5, CSS3, jQuery, JavaScript
                                 </p>
@@ -30,11 +30,11 @@ class Projects extends Component {
                             <img src={pic03} alt=""/>
                         </a>
                     </div>
-                    <div className="projects__info-1"> 
+                    <div className="projects__info-2"> 
                         <header>
-                            <h3>MIXR</h3>
+                            <h4>MIXR</h4>
                                 <p>Web application designed for musicians, artists, and producers to come together to create, connect, and collaborate on projects.</p>
-                            <h4>Technologies Used</h4>
+                            <h5>Technologies Used</h5>
                                 <p>
                                     HTML5, CSS3, Bootstrap, Node.js, Express.js, Embedded Javascript(EJS), MongoDB
                                 </p>
@@ -45,18 +45,42 @@ class Projects extends Component {
                             <img src={pic04} alt=""/>
                         </a>
                     </div>
+                    <div className="projects__info-3"> 
+                        <header>
+                        <h4>LOCALA</h4>
+                            <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
+                            </p>
+                        <h5>Technologies Used</h5>
+                        <p>Technologies used: React.js, CSS, Bootstrap, Flask, SQLite, PostgreSQL, and Flask-Login</p>
+                        </header>
+                    </div>
                     <div className="projects__grid-4">
                         <a href="https://kimtimmy93.github.io/whackamole/" target="_blank">
                             <img src={pic02} alt=""/>
                         </a>
+                    </div>
+                    <div className="projects__info-4"> 
+                        <h4>Whack-A-Mole</h4>
+                            <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
+                        <h5>Technologies Used</h5>
+                            <p>
+                                HTML5, CSS3, jQuery, JavaScript
+                                </p>
                     </div>
                     <div className="projects__grid-5">
                         <a href="https://localhost0003.herokuapp.com/" target="_blank">
                             <img src={pic05} alt=""/>
                         </a>
                     </div>
-
-                    
+                    <div className="projects__info-5">
+                        <header>
+                            <h4>LOCAL:HOST</h4>
+                                <p>Local:Host is a full-stack MERN app created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage.
+                                </p>
+                            <h5>Technologies Used</h5>
+                                <p>React.js, Node.js, Express.js, MongoDB, Firebase</p>
+                            </header>
+                    </div>
                 </div>
             </div>
             

@@ -49,7 +49,7 @@
 p {
     height: fit-content;
     font-size: 14pt;
-    line-height: 3.3rem;
+    line-height: 3.0rem;
     font-family: $font-stack;
 }
 
@@ -118,19 +118,24 @@ h2 {
         border: solid black 1px;
     }
 
-    .projects__info-1 {
+    .projects__info-1, .projects__info-3, .projects__info-5 {
         float: right;
-        width: 30%;
+        width: 40%;
         margin-top: -400px;
-        margin-right: 200px;
+        margin-right: 100px;
         justify-content: center;
         text-align: center;
+        font-size: 12pt;
+        line-height: 1;
     }
 
-    .projects__info-2 {
+    .projects__info-2, .projects__info-4 {
         width: 30%;
+        margin-top: -400px;
+        margin-left: 100px;
         justify-content: center;
         text-align: center;
+        font-size: 10pt;
     }
 }
 
