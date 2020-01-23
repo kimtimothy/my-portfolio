@@ -64,11 +64,11 @@ class NavBar extends Component {
                         offset={-70}
                         duration= {500}
                         >Contact</Link>
-                        <div class="hamburger-menu">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                        </div>
+                        {/* <div className="hamburger-menu">
+                            <div className="bar"></div>
+                            <div className="bar"></div>
+                            <div className="bar"></div>
+                        </div> */}
                     </div>
                 </div>
                 {/* <div class="overlay">
