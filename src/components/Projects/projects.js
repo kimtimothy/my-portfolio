@@ -47,11 +47,11 @@ class Projects extends Component {
                     </div>
                     <div className="projects__info-3"> 
                         <header>
-                        <h4>LOCALA</h4>
-                            <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
-                            </p>
-                        <h5>Technologies Used</h5>
-                        <p>React.js | CSS3 | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
+                            <h4>LOCALA</h4>
+                                <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
+                                </p>
+                            <h5>Technologies Used</h5>
+                                <p>React.js | CSS3 | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
                         </header>
                     </div>
                     <div className="projects__grid-4">
@@ -65,7 +65,7 @@ class Projects extends Component {
                         <h5>Technologies Used</h5>
                             <p>
                                 HTML5 | CSS3 | jQuery | JavaScript
-                                </p>
+                            </p>
                     </div>
                     <div className="projects__grid-5">
                         <a href="https://localhost0003.herokuapp.com/" target="_blank">
