@@ -51,7 +51,7 @@ class Projects extends Component {
                             <p>Full-stack application that provides users with information on current and upcoming local sporting events in the Los Angeles and surrounding areas. Implemented Flask authentication. Consumed SeatGeek API. Managed GitHub branches and merges
                             </p>
                         <h5>Technologies Used</h5>
-                        <p>React.js | CSS3 | Bootstrap | Flask| SQLite | PostgreSQL | Flask-Login</p>
+                        <p>React.js | CSS3 | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
                         </header>
                     </div>
                     <div className="projects__grid-4">
