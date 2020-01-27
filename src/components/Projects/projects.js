@@ -27,6 +27,7 @@ class Projects extends Component {
                             </p>
                     </div>
                     </div>
+                    <div className="projects__container-2">
                     <div className="projects__grid-2">
                         <a href="https://mixr-1.herokuapp.com/" target="_blank">
                             <img src={pic03} alt=""/>
@@ -42,6 +43,8 @@ class Projects extends Component {
                                 </p>
                         </header>
                     </div>
+                    </div>
+                    <div className="projects__container-3">
                     <div className="projects__grid-3">
                         <a href="https://local-la.herokuapp.com/" target="_blank">
                             <img src={pic04} alt=""/>
@@ -56,6 +59,8 @@ class Projects extends Component {
                                 <p>React.js | CSS3 | Bootstrap | Flask | SQLite | PostgreSQL | Flask-Login</p>
                         </header>
                     </div>
+                    </div>
+                    <div className="projects__container-4">
                     <div className="projects__grid-4">
                         <a href="https://kimtimmy93.github.io/whackamole/" target="_blank">
                             <img src={pic02} alt=""/>
@@ -69,6 +74,8 @@ class Projects extends Component {
                                 HTML5 | CSS3 | jQuery | JavaScript
                             </p>
                     </div>
+                    </div>
+                    <div className="projects__container-5">
                     <div className="projects__grid-5">
                         <a href="https://localhost0003.herokuapp.com/" target="_blank">
                             <img src={pic05} alt=""/>
@@ -82,6 +89,7 @@ class Projects extends Component {
                             <h5>Technologies Used</h5>
                                 <p>React.js | Node.js | Express.js | MongoDB | Firebase</p>
                             </header>
+                    </div>
                     </div>
                 </div>
             </div>
