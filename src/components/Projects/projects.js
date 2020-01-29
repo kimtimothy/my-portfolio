@@ -82,13 +82,11 @@ class Projects extends Component {
                         </a>
                     </div>
                     <div className="projects__info-5">
-                        <header>
                             <h4>LOCAL:HOST</h4>
                                 <p>Local:Host is a full-stack MERN app created for individuals looking for homestay accommodations abroad, and for hospitable hosts who are passionate about assimilating foreigners to their local culture. Implemented Firebase authentication and storage.
                                 </p>
                             <h5>Technologies Used</h5>
                                 <p>React.js | Node.js | Express.js | MongoDB | Firebase</p>
-                        </header>
                     </div>
                     </div>
                 </div>
