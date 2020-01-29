@@ -88,7 +88,7 @@ class Projects extends Component {
                                 </p>
                             <h5>Technologies Used</h5>
                                 <p>React.js | Node.js | Express.js | MongoDB | Firebase</p>
-                            </header>
+                        </header>
                     </div>
                     </div>
                 </div>
