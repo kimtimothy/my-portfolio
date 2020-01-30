@@ -28,11 +28,6 @@ class Projects extends Component {
                     </div>
                     </div>
                     <div className="projects__container-2">
-                    <div className="projects__grid-2">
-                        <a href="https://mixr-1.herokuapp.com/" target="_blank">
-                            <img src={pic03} alt=""/>
-                        </a>
-                    </div>
                     <div className="projects__info-2"> 
                         <header>
                             <h4>MIXR</h4>
@@ -42,6 +37,11 @@ class Projects extends Component {
                                     HTML5 | CSS3 | Bootstrap | Node.js | Express.js | Embedded Javascript(EJS) | MongoDB
                                 </p>
                         </header>
+                    </div>
+                    <div className="projects__grid-2">
+                        <a href="https://mixr-1.herokuapp.com/" target="_blank">
+                            <img src={pic03} alt=""/>
+                        </a>
                     </div>
                     </div>
                     <div className="projects__container-3">
