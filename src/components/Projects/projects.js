@@ -61,11 +61,6 @@ class Projects extends Component {
                     </div>
                     </div>
                     <div className="projects__container-4">
-                    <div className="projects__grid-4">
-                        <a href="https://kimtimmy93.github.io/whackamole/" target="_blank">
-                            <img src={pic02} alt=""/>
-                        </a>
-                    </div>
                     <div className="projects__info-4"> 
                         <h4>Whack-A-Mole</h4>
                             <p>Web application based on the all-time classic arcade game of Whack-A-Mole built in JavaScript</p>
@@ -73,6 +68,11 @@ class Projects extends Component {
                             <p>
                                 HTML5 | CSS3 | jQuery | JavaScript
                             </p>
+                    </div>
+                    <div className="projects__grid-4">
+                        <a href="https://kimtimmy93.github.io/whackamole/" target="_blank">
+                            <img src={pic02} alt=""/>
+                        </a>
                     </div>
                     </div>
                     <div className="projects__container-5">
